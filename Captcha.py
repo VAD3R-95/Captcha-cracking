@@ -26,7 +26,7 @@ def main():
     print("############################")
     print(respData)
     print("############################")
-    paragraphs = re.findall(r';<img>(.*?)" />', str(respData)) # the tag to get the imgae from (different methods can be used here)
+    paragraphs = re.findall(r';<p>(.*?) />', str(respData))  # the tag to get the imgae from (different methods can be used here)
     
     for eachP in paragraphs:                                   # downloading the img src page can also work but this is pretty fast
         r = eachP                                              # with regex and saving to file on working dir. as image file
