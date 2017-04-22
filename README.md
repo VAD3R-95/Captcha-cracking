@@ -15,12 +15,22 @@ A simple yet efficient script to crack online captchas. Step by step detailed gu
    More Details about [pillow](http://pillow.readthedocs.io/en/3.1.x/installation.html)
 
 3. Download the script and run on python3 and you are good to go.
-
-4. I have added some sample image file for testing the captcha cracker . The detailed explanation about the script can be    read  from the script and other documentation links given on here and other pages.
-
-5. Reference:
-   []()
-   []()
    
+   After downloading the scipt on your pyhton3 ide run the script to get the image from the url/page/tag, *img.png* fill be formed in your working directory .
+   
+   Which will be proceesed to generate image1.png and finally resized to result.tif for feeding to the OCR pytessercat
+   
+4. I have added some sample image file for testing the captcha cracker . The detailed explanation about the script can be    read  from the script and other documentation links given on here and other pages.
+   
+5. Reference:
+  
+   [captcha cracking](http://www.pythonlovers.net/bypass-online-captcha/)
+  
+   [urllib](https://docs.python.org/3/library/urllib.request.html)
+  
+   [http.cookiejar](https://docs.python.org/3.1/library/http.cookiejar.html)
+  
+   [regex](https://docs.python.org/2/library/re.html)
+
 *Happy Cracking* :fire:   
    
