@@ -8,7 +8,7 @@ from pytesseract import *
 import time
 
 url = ' '                                                  # the url to get/post
-headers = {}                                               # user agent spoofing ;-)
+headers = {}                                               # user agent spoofing ;-) required sometimes
 headers['User-Agent'] = 'Mozilla/5.0 (X11; Linux i686) Applewebkit/537.17 (KHTML, like Gecko Chrome/24.0.1312.27 Safari/537.17'
 
 
