@@ -65,7 +65,7 @@ def main():
     
 def post(captcha):
     values={}
-    values{'captcha_place': captcha}                           # entering captcha as dic-values at captcha place(your_place) taken from tags
+    values={'captcha_place': captcha}                           # entering captcha as dic-values at captcha place(your_place) taken from tags
     senddata = urllib.parse.urlencode(values)                   # different methods can be used here also
     return bytes(senddata, 'utf-8')                            # returing as bytes for python3
 
